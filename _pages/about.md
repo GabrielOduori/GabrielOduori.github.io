@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Gabrie Oduori, page"
+title: "Gabrie Oduori"
 author_profile: true
 redirect_from: 
   - /about/
