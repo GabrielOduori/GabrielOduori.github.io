@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D University College Dubli,, 2026 (expected)
+* Ph.D University College Dublin 2026 (expected)
 * M.S. in Computer Science, University of Bath
-  * Thesis: A strict Anomaly Detetction Model for Network Intrusion Detection
+  * Thesis: A strict Anomaly Detection Model for Network Intrusion Detection
   * Supervisor: Dr. Michael Wright
 <!-- * B.S. in GitHub, GitHub University, 2012 -->
 
