@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Gabriel Oduori"
   # pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
+  bio              : "I am interested at the intersection of computational statistics, Gaussian processes, Bayesian inference, and environmental monitoring. My research focuses on developing probabilistic methods for fusing heterogeneous data sources and their application in air quality monitoring with low-cost sensors."
+  location         : "Dublin, Ireland"
+  employer         : "University collection"
+  uri              : "https://gabrieloduori.github.io/"
   email            : "gabriel.oduori@gmail.com" 
 
   # Academic websites
@@ -36,7 +36,7 @@ author:
   # arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=lyY45RgAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0009-1413-5882"
   # semantic         : # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # researchgate     : # URL
