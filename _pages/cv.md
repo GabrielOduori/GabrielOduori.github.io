@@ -11,20 +11,20 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2026 (expected)
-* M.S. ii Computer Science, University of Bath, 2015
+* Ph.D University College Dubli,, 2026 (expected)
+* M.S. in Computer Science, University of Bath, 2015
   * Thesis: A strict Anomaly Detetction Model for Network Intrusion Detection
-  * Supervisor: Professor Miachel Wright
+  * Supervisor: Dr. Miachel Wright
 <!-- * B.S. in GitHub, GitHub University, 2012 -->
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
+* Feb 2023 - Decembe 2024: Software Deveopler RA
+  * University College Dublin
+  * Duties includes: Desining and Implementing Web applications for EU Funded Projects.
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
+<!-- * Fall 2015: Research Assistant
   * GitHub University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
@@ -32,16 +32,18 @@ Work experience
 * Summer 2015: Research Assistant
   * GitHub University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor Git -->
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
+* 
+* Software Development
+  <!-- * Sub-skill 2.1
   * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  * Sub-skill 2.3 -->
+* Design Thinking
+  <!-- * Sub-skill 3.1
+  * Sub-skill 3.2 -->
 
 Publications
 ======
@@ -55,7 +57,7 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
@@ -63,4 +65,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
