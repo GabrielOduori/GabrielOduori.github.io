@@ -19,7 +19,7 @@ Education
 
 Work experience
 ======
-* Feb 2023 - Decembe 2024: Software Developer RA
+* Feb 2023 - December 2024: Software Developer RA
   * University College Dublin
   * Duties includes: Desining and Implementing Web applications for EU Funded Projects.
   * Supervisor: The Users
@@ -36,9 +36,37 @@ Work experience
   
 Skills
 ======
-* Python
 * Software Development
 * Design Thinking
+* Machine Learning
+* Git and GitHub
+* SQL
+* Web Development
+* Latex
+
+Operating Systems
+======
+
+* Linux
+* Windows
+* MacOS
+
+Data Visualization
+======
+* Matplotlib
+* Seaborn
+* Plotly
+* Power BI
+* Tableau
+
+
+Frameworks and Libraries
+======
+* Flask
+* Django
+* Jekyll
+
+
 
 Publications
 ======
