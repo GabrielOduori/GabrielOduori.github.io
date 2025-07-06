@@ -12,14 +12,14 @@ redirect_from:
 Education
 ======
 * Ph.D University College Dubli,, 2026 (expected)
-* M.S. in Computer Science, University of Bath, 2015
+* M.S. in Computer Science, University of Bath
   * Thesis: A strict Anomaly Detetction Model for Network Intrusion Detection
-  * Supervisor: Dr. Miachel Wright
+  * Supervisor: Dr. Michael Wright
 <!-- * B.S. in GitHub, GitHub University, 2012 -->
 
 Work experience
 ======
-* Feb 2023 - Decembe 2024: Software Deveopler RA
+* Feb 2023 - Decembe 2024: Software Developer RA
   * University College Dublin
   * Duties includes: Desining and Implementing Web applications for EU Funded Projects.
   * Supervisor: The Users
@@ -36,14 +36,9 @@ Work experience
   
 Skills
 ======
-* 
+* Python
 * Software Development
-  <!-- * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3 -->
 * Design Thinking
-  <!-- * Sub-skill 3.1
-  * Sub-skill 3.2 -->
 
 Publications
 ======
