@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Gabriel Oduori"
   # pronouns         : # example: "she/her"  
-  bio              : "I am interested at the intersection of computational statistics, Gaussian processes, Bayesian inference, and environmental monitoring. My research focuses on developing probabilistic methods for fusing heterogeneous data sources and their application in air quality monitoring with low-cost sensors."
+  bio              : "I am interested in computational statistics, Gaussian processes and Bayesian inference. My research focuses on developing probabilistic methods for fusing heterogeneous data sources and their application in air quality monitoring with low-cost sensors."
   location         : "Dublin, Ireland"
-  employer         : "University collection"
+  employer         : "University College Dublin"
   uri              : "https://gabrieloduori.github.io/"
   email            : "gabriel.oduori@gmail.com" 
 
@@ -68,7 +68,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : GabrielOduori # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
