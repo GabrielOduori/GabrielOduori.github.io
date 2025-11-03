@@ -4,8 +4,8 @@ collection: teaching
 type: "MSc Course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University College Dublin"
-date: 2025-01-01
-location: "City, Country"
+date: 2025-10-01
+location: "Dublin, Ireland"
 ---
 
 Currently tutoring Python for GIS module!
