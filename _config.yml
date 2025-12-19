@@ -7,7 +7,6 @@
 # server process.
 
 # Basic Site Settings
-theme
 locale                   : "en-UK"
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
