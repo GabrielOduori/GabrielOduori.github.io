@@ -7,8 +7,10 @@
 # server process.
 
 # Basic Site Settings
+theme
 locale                   : "en-UK"
-site_theme               : "default"
+theme                    : "jekyll-theme-minima"
+# site_theme               : "default"
 title                    : "Gabriel Oduori"
 title_separator          : "-"
 name                     : &name "Gabriel Oduori"
