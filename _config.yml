@@ -9,7 +9,7 @@
 # Basic Site Settings
 theme
 locale                   : "en-UK"
-theme                    : "jekyll-theme-minima"
+theme                    : "jekyll-theme-minimal"
 # site_theme               : "default"
 title                    : "Gabriel Oduori"
 title_separator          : "-"
