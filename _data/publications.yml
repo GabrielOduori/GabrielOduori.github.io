@@ -1,7 +1,7 @@
 key:
 
   - title: "Data Fusion for Low Cost Sensors: Systematic Review"
-    authors: <strong>Gabriel Oduori</strong>, Co-Author Name, Another Author
+    authors: <strong>Gabriel Oduori</strong>, Co-Author Name, Another Author, Another Author
     conference_short: CONF
     conference: Conference or Journal Name, Year.
     pdf: https://link-to-pdf.pdf
@@ -21,7 +21,7 @@ key:
 
 
   - title: "Embedding  LUR Models into SSM"
-    authors: <strong>Gabriel Oduori</strong>, Co-Author Name
+    authors: <strong>Gabriel Oduori</strong>, Co-Author Name, Another Author, Another Author
     conference_short: JOUR
     conference: Journal Name, Volume(Issue), Pages, Year.
     pdf: https://link-to-pdf.pdf
@@ -31,7 +31,7 @@ key:
 
 
   - title: "Transfer Learning for Generalising Air Quality Models"
-    authors: <strong>Gabriel Oduori</strong>, Co-Author Name
+    authors: <strong>Gabriel Oduori</strong>, Co-Author Name, Another Author, Another Author
     conference_short: JOUR
     conference: Journal Name, Volume(Issue), Pages, Year.
     pdf: https://link-to-pdf.pdf
