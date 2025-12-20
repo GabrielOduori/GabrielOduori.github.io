@@ -1,0 +1,23 @@
+projects:
+
+  - name: "Project Name 1"
+    description: "A brief description of what this software/tool does and its main purpose."
+    github: https://github.com/yourusername/project1
+    website: https://project1-website.com
+
+  - name: "Project Name 2"
+    description: "Another tool for doing something useful in your research domain."
+    github: https://github.com/yourusername/project2
+
+  - name: "Project Name 3"
+    description: "A web tool for specific task related to your research."
+    github: https://github.com/yourusername/project3
+    website: https://project3-demo.com
+
+  - name: "Project Name 4"
+    description: "Command-line tool or library for specific analysis or computation."
+    github: https://github.com/yourusername/project4
+
+  - name: "Project Name 5"
+    description: "Data processing pipeline or visualization tool."
+    github: https://github.com/yourusername/project5
