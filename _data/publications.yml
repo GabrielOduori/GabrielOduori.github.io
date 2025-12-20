@@ -1,6 +1,6 @@
 key:
 
-  - title: "Your Key Publication Title Here"
+  - title: "Data Fusion for Low Cost Sensors: Systematic Review"
     authors: <strong>Gabriel Oduori</strong>, Co-Author Name, Another Author
     conference_short: CONF
     conference: Conference or Journal Name, Year.
@@ -10,7 +10,7 @@ key:
     image: ./assets/img/teaser_example.png
     notes: Optional note (e.g., "Oral Presentation", "Best Paper Award")
 
-  - title: "Second Key Publication Title"
+  - title: "Probabilistic Model for Low-Cost Air Quality Sensors"
     authors: <strong>Gabriel Oduori</strong>, Co-Author Name
     conference_short: JOUR
     conference: Journal Name, Volume(Issue), Pages, Year.
@@ -20,7 +20,17 @@ key:
     image: ./assets/img/teaser_example_2.png
 
 
-  - title: "Third Key Publication Title"
+  - title: "Embedding  LUR Models into SSM}"
+    authors: <strong>Gabriel Oduori</strong>, Co-Author Name
+    conference_short: JOUR
+    conference: Journal Name, Volume(Issue), Pages, Year.
+    pdf: https://link-to-pdf.pdf
+    code: https://github.com/yourusername/project
+    page: https://project-page-url.com
+    image: ./assets/img/teaser_example_2.png
+
+
+  - title: "Transfer Learning for Generalising Air Quality Models
     authors: <strong>Gabriel Oduori</strong>, Co-Author Name
     conference_short: JOUR
     conference: Journal Name, Volume(Issue), Pages, Year.
