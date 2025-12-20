@@ -1,4 +1,4 @@
-<h2 id="teaching" style="margin: 2px 0px -15px;">Teaching</h2>
+<h2 id="teaching" style="margin: 60px 0px -15px;">Teaching</h2>
 
 <div class="teaching">
 <ul style="margin:0 0 20px;">

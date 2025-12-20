@@ -29,5 +29,3 @@ I am supervised by Prof. X and Prof Y affiliated with at the Spatial Dynamics La
 {% include_relative _includes/software.md %}
 
 {% include_relative _includes/teaching.md %}
-
-{% include_relative _includes/services.md %}
