@@ -7,7 +7,7 @@ key:
     pdf: https://link-to-pdf.pdf
     code: https://github.com/yourusername/project
     bibtex: https://link-to-bibtex.txt
-    image: ./assets/img/publication1.png
+    image: ./assets/img/teaser_example.png
     notes: Optional note (e.g., "Oral Presentation", "Best Paper Award")
 
   - title: "Second Key Publication Title"
@@ -17,7 +17,7 @@ key:
     pdf: https://link-to-pdf.pdf
     code: https://github.com/yourusername/project
     page: https://project-page-url.com
-    image: ./assets/img/publication2.png
+    image: ./assets/img/teaser_example_2.png
 
 other:
 
