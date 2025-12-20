@@ -6,7 +6,7 @@ layout: homepage
 
 I am a Ph.D. candidate at University College Dublin based in Dublin, Ireland. My research focuses on computational statistics, Gaussian processes, and Bayesian inference. I develop probabilistic methods for combining diverse data sources, with particular application to air quality monitoring using low-cost sensors.
 
-I am supervised by Prof. X and Prof Y affiliated with at the Spatial Dynamics Lab where we aim to support data-driven solutions for urban air quality modeling using geospatial data and probabilistic modeling.
+I am supervised by Assistant Prof [Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof Francesco Pilla](https://people.ucd.ie/francesco.pilla) at the Spatial Dynamics Lab, where we aim to support data-driven solutions for urban air quality modeling using geospatial data and probabilistic modeling.
 
 ## Research Interests
 
