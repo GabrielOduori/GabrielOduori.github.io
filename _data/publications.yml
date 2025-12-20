@@ -30,7 +30,7 @@ key:
     image: ./assets/img/teaser_example_2.png
 
 
-  - title: "Transfer Learning for Generalising Air Quality Models
+  - title: "Transfer Learning for Generalising Air Quality Models"
     authors: <strong>Gabriel Oduori</strong>, Co-Author Name
     conference_short: JOUR
     conference: Journal Name, Volume(Issue), Pages, Year.
