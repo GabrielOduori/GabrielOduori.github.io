@@ -19,6 +19,16 @@ key:
     page: https://project-page-url.com
     image: ./assets/img/teaser_example_2.png
 
+
+  - title: "Third Key Publication Title"
+    authors: <strong>Gabriel Oduori</strong>, Co-Author Name
+    conference_short: JOUR
+    conference: Journal Name, Volume(Issue), Pages, Year.
+    pdf: https://link-to-pdf.pdf
+    code: https://github.com/yourusername/project
+    page: https://project-page-url.com
+    image: ./assets/img/teaser_example_2.png
+
 other:
 
   - title: "Other Publication Title"
