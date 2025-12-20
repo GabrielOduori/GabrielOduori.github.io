@@ -17,9 +17,9 @@ I am supervised by Assistant Prof [Chiara Cocco](https://people.ucd.ie/chiara.co
 
 ## Recent Updates
 
-- **[Feb 2025]** Presented poster at [Conference Name] on [Topic]. [Poster link](link-to-poster)
-- **[Jan 2025]** Paper accepted at [Journal/Conference Name]. [Preprint](link-to-preprint)
-- **[Dec 2024]** Gave invited talk at [Institution] on [Topic]. [Slides](link-to-slides)
+- **[May 2025]** Presented poster at EGU 2025 on [Topic]. [Poster link](link-to-poster)
+- **[March 2025]** Paper accepted at [Journal/Conference Name]. [Preprint](link-to-preprint)
+- **[March 2025]** Gave talk at International Conference on Advanced Remote Sensing (ICARS 2025) on [Topic]. [Slides](link-to-slides)
 - **[Nov 2024]** Released new open-source tool for [purpose]. [GitHub](link-to-repo)
 - **[Oct 2024]** Started collaboration with [Institution/Person] on [Topic].
 - **[Sep 2024]** Teaching assignment for [Course Name] at [Institution].
