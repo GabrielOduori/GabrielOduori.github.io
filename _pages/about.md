@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: Ph.D. Candidate, <a href='https://www.ucd.ie/'>University College Dublin</a> <br> gabriel.oduori [at] ucdconnect.ie, gabriel.oduori [at] gmail.com <br> Spatial Dynamics Lab, Richview, Dublin
 profile:
   align: right
   image: prof_pic.jpg

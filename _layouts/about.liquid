@@ -12,6 +12,13 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social" style="text-align: left;">
+        <div class="contact-links" style="font-size: 0.9rem; margin-top: 0.5rem;">{% include social_text.liquid %}</div>
+      </div>
+    {% endif %}
   </header>
 
   <article>
@@ -62,15 +69,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

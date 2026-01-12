@@ -1,0 +1,24 @@
+{% assign link_count = 0 %}
+{% for social in site.data.socials %}
+  {% if link_count > 0 %} | {% endif %}
+  {% case social[0] %}
+    {% when 'cv_pdf' %}
+      <a href="{{ social[1] | relative_url }}" target="_blank">CV</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'email' %}
+      <a href="mailto:{{ social[1] | encode_email }}">Email</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'github_username' %}
+      <a href="https://github.com/{{ social[1] }}">GitHub</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'linkedin_username' %}
+      <a href="https://www.linkedin.com/in/{{ social[1] }}">LinkedIn</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'scholar_userid' %}
+      <a href="https://scholar.google.com/citations?user={{ social[1] }}">Google Scholar</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'x_username' %}
+      <a href="https://twitter.com/{{ social[1] }}">X</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'orcid_id' %}
+      <a href="https://orcid.org/{{ social[1] }}">ORCID</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'research_gate_profile' %}
+      <a href="https://www.researchgate.net/profile/{{ social[1] }}/">ResearchGate</a>{% assign link_count = link_count | plus: 1 %}
+    {% when 'dblp_url' %}
+      <a href="{{ social[1] }}">DBLP</a>{% assign link_count = link_count | plus: 1 %}
+  {% endcase %}
+{% endfor %}
