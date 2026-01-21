@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Gabriel Oduori, PhD, UCD, University College Dublin, Machine Learning, AI, Data Science, Sensor Fusion, Low-Cost Sensors, Air Quality Monitoring, Remote Sensing, Satellite Imagery, Geospatial Data Science, Python for GIS, Environmental Monitoring, Data Fusion, Kalman Filter, Land Use Regression # add your own keywords or leave empty
+keywords: Gabriel Oduori, PhD, UCD, University College Dublin, Machine Learning, AI, Data Science, Sensor Fusion, Low-Cost Sensors, Air Quality Monitoring, Remote Sensing, Satellite Imagery, Geospatial Data Science, Python for GIS, Environmental Monitoring, Data Fusion, Kalman Filter, Land Use Regression, Probabilistic Programming # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
