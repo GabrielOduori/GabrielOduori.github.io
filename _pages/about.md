@@ -25,8 +25,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+My research focuses on how probabilistic techniques can advance and scale-up understanding dynamics of urban air quality. I am interested in computational statistics, Gaussian processes and Bayesian inference and their applicationb in space and time data. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am supervised by [Assistant Prof. Dr. Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof. Francesco Pilla](https://people.ucd.ie/francesco.pilla) at Spatial Dynamics Lab where we explore sensing technologies for smart Urban environments.
+
+Alongside my academic work, I also tutor MSc classes mostly programming in geospatial science.
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
