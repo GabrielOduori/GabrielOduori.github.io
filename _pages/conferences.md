@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /talks/
-title: talks
+permalink: /conferences/
+title: conferences
 description: Conference presentations and invited talks.
 nav: true
 nav_order: 5
