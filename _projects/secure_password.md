@@ -4,7 +4,7 @@ title: Secure Password Generator
 description: A web-based tool for generating strong, secure passwords
 img:
 importance: 1
-category: tools
+category: fun
 ---
 
 A secure password generating tool built to help users create strong, random passwords for better online security.
