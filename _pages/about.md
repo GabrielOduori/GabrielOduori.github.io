@@ -27,7 +27,7 @@ latest_posts:
 ---
 My research focuses on how probabilistic techniques can advance and scale-up understanding dynamics of urban systems. I am interested in computational statistics, Gaussian processes and Bayesian inference and their applications in space and time data. 
 
-I am a member of Spatial Dynamics Lab, supervised by [Assistant Prof. Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof. Francesco Pilla](https://people.ucd.ie/francesco.pilla). Our work pushes the boundary of geographic citizen sciense and smart sensing technologies.
+I am a member of Spatial Dynamics Lab, supervised by [Assistant Prof. Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof. Francesco Pilla](https://people.ucd.ie/francesco.pilla). Our work pushes the boundary of geographic citizen science and smart sensing technologies.
 
 Beyond research, I am an educator, tutoring MSc-level Python programming for geospatial science, and I remain active in the industry as a part-time Python software developer.
 
