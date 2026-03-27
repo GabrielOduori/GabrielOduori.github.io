@@ -27,10 +27,9 @@ latest_posts:
 ---
 My research focuses on how probabilistic techniques can advance and scale-up understanding dynamics of urban systems. I am interested in computational statistics, Gaussian processes and Bayesian inference and their applications in space and time data. 
 
-I am supervised by [Assistant Prof. Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof. Francesco Pilla](https://people.ucd.ie/francesco.pilla) at Spatial Dynamics Lab where we explore geographic citizen sciense and innovations in sensing technologies for smart urban environments.
+I am a member of Spatial Dynamics Lab, supervised by [Assistant Prof. Chiara Cocco](https://people.ucd.ie/chiara.cocco) and [Prof. Francesco Pilla](https://people.ucd.ie/francesco.pilla). Our pushes the boundary of geographic citizen sciense and smart sensing technologies.
 
-Alongside my research work, I also tutor MSc classes in Python programming for geospatial science.
-
+Beyond research, I am an educator, tutoring MSc-level Python programming for geospatial science, and I remain active in the industry as a part-time Python software developer.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
