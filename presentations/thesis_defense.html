@@ -752,7 +752,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>FusionGP is the first and core paper. We treat NO₂ concentration as a latent Gaussian Process — a continuous spatial field we never observe directly. Satellite retrievals, land use covariates, and in-situ observations are all modelled as noisy observations of this latent field. The posterior GP gives us a spatially continuous map with calibrated uncertainty bounds everywhere — including unmonitored locations. This is the fundamental capability that deterministic LUR cannot provide.</p>
+<p>FusionGP is the first and core paper. We treat NO₂ concentration as a latent Gaussian Process — a continuous spatial field we never observe directly. All the 4 data sources i.e. Satellite retrievals, land use covariates, and in-situ observations are modelled as noisy observations of this latent field. The posterior GP gives us a spatially continuous map with calibrated uncertainty bounds throughot the area of interest — including unmonitored locations.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -792,7 +792,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>The second paper extends the spatial GP model by embedding LUR inside a State Space Model. The SSM gives the model memory — it doesn’t treat each day independently. The Kalman filter updates the latent state as new observations arrive. The GAM handles non-linear relationships between spatial covariates and concentrations. Currently revising with wind-sector based covariate extractions to better capture directional pollution transport — this is the main reviewer request and addresses a genuine physical mechanism we had under-modelled.</p>
+<p>The second paper extends the spatial Generalized Additive Model (GAM) LUR model and embeds it inside a State Space Model. Essentially, the SSM gives the static GAM model memory — it doesn’t treat each time-step independently. As new obsrvation arrives, the Kalman filter updates the latent. The GAM handles non-linear relationships between spatial covariates and concentrations. This chapter has recently been updated with a new set of wind-sector derived covariates to better capture directional pollution transport — this is the main reviewer request and addresses a genuine physical mechanism we had under-modelled.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -986,7 +986,7 @@ Gabriel Oduori
   </div>
 </div>
 <aside class="notes">
-<p>On this slide, I am sharing some of the activities that have progressed since January and therefore not included in the thesis. The Gantt chart shows the trajectory of all papers from January through the defense today. The thesis was submitted in March. The systematic review is fully published. FusionGP was finalised and submitted in March to CUES and returned for revision, which is normal in this process. RQ2 and RQ3 have both come under active peer review revision and we are using the feedback to make revisions. — this is normal and expected in a PhD by publication. RQ4 began preparation and is being drafted. The pink line marks today — the defense.</p>
+<p>Having completed the contributions, here are some of the progress work that are not entirely on the thesis with activities between January and today. The Gantt chart shows the trajectory of all papers from January through the defense today. The systematic review is fully published. The thesis was submitted in March. RQ1 (FusionGP) was finalised and submitted in March to CUES and returned for revision, which is normal in this process. RQ2 and RQ3 have both been undergone active peer review revision and we are using the feedback to make revisions with a deadline of 5th June. RQ4 remains in draft preparation and is being drafted. The pink line marks today — the defense.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1053,7 +1053,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>The thesis asked one central question and answered it through four empirical papers. FusionGP establishes that probabilistic GP fusion works for spatial NO₂ mapping. The Hybrid GAM-SSM shows that embedding LUR in a state space framework adds the temporal dimension. Transfer learning demonstrates scalability across cities. Uncertainty quantification closes the loop by formalising how to communicate what we do and don’t know. Together, these constitute the first end-to-end probabilistic pipeline for heterogeneous air quality data fusion — accurate, temporally dynamic, transferable, and uncertainty-aware.</p>
+<p>In conclusion therefore, this thesis asked one central question and answered it through four empirical papers. FusionGP establishes that probabilistic GP fusion works for spatial NO₂ mapping. The Hybrid GAM-SSM shows that embedding LUR in a state space framework adds the temporal dimension. Transfer learning demonstrates scalability across cities. Uncertainty quantification closes the loop by formalising how to communicate what we do and don’t know. Together, these constitute the first end-to-end probabilistic pipeline for heterogeneous air quality data fusion — accurate, temporally dynamic, transferable, and uncertainty-aware.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1111,7 +1111,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>To to a larger extent, these also reflect on some of the weaknesses of this research. The near-term extensions are straightforward given the existing framework — new pollutants and online updating. But the longer-term vision is more ambitious. The concept of Probabilistic Spatial Intelligence builds on this thesis by replacing the hand-crafted LUR covariates with learned spatial representations - embeddings that capture urban structure automatically from satellite imagery, street views, and 3D maps. When combined with the probabilistic modelling framework developed here, you get a system that generalises across cities not just by statistical similarity but by learned spatial understanding. This is the vision that connects this thesis to the broader trajectory of AI in environmental science.</p>
+<p>To an extent, potentials of future work also points to some of the areas in which this work migth benefit from further research. The near-term extensions are straight forward given the existing framework — new pollutants and online updating. But the longer-term vision is more ambitious. The concept of Probabilistic Spatial Intelligence builds on this thesis by replacing the hand-crafted LUR covariates with learned spatial representations - embeddings that capture urban structure automatically from satellite imagery, street views, and 3D maps. When combined with the probabilistic modelling framework developed here, you get a system that generalises across cities not just by statistical similarity but by learned spatial understanding. This is the vision that connects this thesis to the broader trajectory of AI in environmental science.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
