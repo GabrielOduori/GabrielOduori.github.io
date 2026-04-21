@@ -301,7 +301,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>This is the roadmap for today’s presentation. I have structured it into three parts. First, Setting the Scene — stops 1 through 5 — where I will cover the problem space, the gaps in the state of the art, the research questions that emerged from those gaps, the data sources I used, and the modelling approach underpinning the work. Second, the Contributions — stops 6 through 10 — where I will walk through each of the four research papers: a systematic review, data fusion with Gaussian Processes, temporal modelling with GAM-SSM, transfer learning, and uncertainty communication. Finally, Closing — stops 11 and 12 — where I will draw conclusions and outline future directions. I will keep this tight — the thesis has the detail, this presentation tells the story.</p>
+<p>Here is the roadmap for today’s presentation, which is structured into three parts. The first part sets the Scene from stops 1 through 5 — where I will cover the problem space, gaps in the state of the art, the research questions emergeing from those gaps, the data sources I used, and the modelling approach for the work. The second part are the key contributions, from  stops 6 through 10 — where I will walk through each of the key chapters or research papers: a systematic review, data fusion with Gaussian Processes, temporal modelling with GAM-SSM, transfer learning, and uncertainty communication. Finally, the Closing, from stops 11 and 12 — where I will draw conclusions and outline future directions. I will keep this tight as the thesis has the detail, this presentation tells the story.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -369,7 +369,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>This slide comes directly from the thesis. The problem is not just that air quality data is heterogeneous — it’s that existing fusion methods can only partially address the challenge. They might handle multiple data sources but ignore uncertainty, or quantify uncertainty but fail to scale. What’s needed is a framework that satisfies all four requirements at once: it must capture spatial and temporal structure, be interpretable enough for policy use, propagate uncertainty rigorously, and remain computationally tractable at urban scale. The probabilistic approach proposed in this thesis — using Gaussian Processes and State Space Models — is specifically designed to meet all four.</p>
+<p> WHO, reports that a staggering 7 million premature deaths are recorded annually due to air pollution. The problem is not just that air quality data is heterogeneous — it’s that existing fusion methods can only partially address the challenge. They might handle multiple data sources but ignore uncertainty, or quantify uncertainty but fail to scale. What’s needed is a framework that satisfies all four requirements at once: it must capture spatial and temporal structure, be interpretable enough for policy use, propagate uncertainty rigorously, and remain computationally tractable at urban scale. The probabilistic approach proposed in this thesis — using Gaussian Processes and State Space Models — is specifically designed to meet all four.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -428,7 +428,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>This is the core motivation for the thesis. The systematic review — which is itself RQ0 — mapped 80+ data fusion studies singled out air quality as the most prominent with the same four gaps recurring across the literature. Gap 1: fusion is done but rarely probabilistically — you get a map but no sense of how confident the model is. Gap 2: the time dimension is almost always collapsed — models are fitted to annual averages or daily means, not the hour-by-hour dynamics that matter most for exposure. Gap 3: models are local by design — nobody tests whether they generalise. Gap 4: even the studies that do estimate uncertainty leave it in the supplementary material — it never reaches the planner or the regulator. And cutting across all four is a fifth concern — computational tractability. Fully probabilistic models are often dismissed precisely because they are seen as too expensive to run at urban scale. A key design constraint throughout this thesis was ensuring the methods remain tractable — not just theoretically elegant, but deployable in practice. Each gap maps directly to one research question.</p>
+<p>The core motivation for the thesis stems from a systematic review — which is itself RQ0, mapped 82 data fusion primary studies and singled out air quality as the most prominent with the same four gaps listed here, recurring across the literature. Gap #1: fusion is done but rarely probabilistically — you get a map but no sense of how confident the model is. Gap #2: the time dimension is almost always collapsed — models are fitted to annual averages or daily means, not the hour-by-hour dynamics that matter most for exposure. Gap #3: is that models are local by design — nobody tests whether they generalise. Gap 4: even the studies that do estimate uncertainty leave it in the supplementary material — it never reaches the planner or the regulator. And cutting across all four is a fifth concern — computational tractability. Fully probabilistic models are often dismissed precisely because they are seen as too expensive to run at urban scale. A key design constraint throughout this thesis was ensuring the methods remain tractable — not just theoretically elegant, but deployable in practice. Each gap maps directly to one research question.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -478,7 +478,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>The central question drives everything in this thesis. Each sub-question tackles a specific dimension of the problem: how to fuse data probabilistically (RQ1), how to handle the time dimension (RQ2), how to generalise across cities (RQ3), and how to communicate uncertainty honestly to decision-makers (RQ4). Each maps directly to a paper. The gaps on the previous slide motivated each of these questions — the monitoring gap → RQ1, the temporal limitation → RQ2, scalability → RQ3, policy decisions → RQ4.</p>
+<p>The central question drives everything in this thesis. Each sub-question tackles a specific dimension of the problem: how to fuse data probabilistically (RQ1), how to handle the time dimension (RQ2), how to generalise across cities (RQ3), and how to communicate uncertainty honestly to decision-makers (RQ4). Each maps directly to a paper. The gaps on the previous slide motivated each of these questions are motivated by by the gaps presented in the previous slide. The monitoring gap → RQ1, the temporal limitation → RQ2, transferability → RQ3, policy decisions → RQ4.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -619,7 +619,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>GPs are ideal for spatial modelling — they give smooth, continuous predictions with principled uncertainty. State Space Models handle the temporal dimension — they track how pollution evolves over time and allow the model to update as new observations arrive. Land Use Regression provides the spatial backbone: road density, green space, elevation, and building footprints as covariates. The key insight is that embedding LUR inside a State Space Model turns a static spatial tool into a dynamic spatio-temporal model. The callout captures the fundamental motivation: every sensor reading is noisy, every satellite retrieval has error, every spatial covariate is a proxy. A probabilistic model is the only scientifically honest way to work with this data.</p>
+<p>Gaussian Process prediction is well known in geostatistical fields for spatial modelling — they give smooth, continuous predictions with principled uncertainty. State Space Models handle the temporal dimension — they track how pollution evolves over time and allow the model to update as new observations arrive. Land Use Regression provides the spatial backbone: road density, green space, elevation, and building footprints as covariates. The key insight is that embedding LUR inside a State Space Model turns a static spatial tool into a dynamic spatio-temporal model. The callout captures the fundamental motivation: every sensor reading is noisy, every satellite retrieval has error, every spatial covariate is a proxy. A probabilistic model offers a  scientifically sound way to work with this data.Non-parametric Bayesian framework means the model can grow in complexity as you observe more data.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -672,7 +672,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>This thesis has four principal contributions — two methodological, two applied. Together they form a pipeline. FusionGP establishes how to fuse heterogeneous sources probabilistically. The Hybrid GAM-SSM extends this to the temporal dimension. Transfer learning addresses scalability across cities. Uncertainty quantification closes the loop by formalising how to communicate what the model doesn’t know. No prior approach addresses all four simultaneously — and doing so is the unifying contribution of this thesis.</p>
+<p>This thesis has four principal contributions — two methodological, two applied. FusionGP establishes how to fuse heterogeneous sources probabilistically. The Hybrid GAM-SSM extends this to the temporal dimension. Transfer learning addresses scalability across cities. Uncertainty quantification closes the loop by formalising how to communicate what the model doesn’t know. No prior approach addresses all four simultaneously — and doing so is the unifying contribution of this thesis.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -712,7 +712,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>The systematic review is the foundation of this thesis. It maps the landscape — what methods exist, what they can and cannot do, and where the gaps are. The key finding is stark: across 80+ papers reviewed, probabilistic data fusion is rare, uncertainty quantification is almost absent, and no paper addresses all four dimensions simultaneously — multi-source, temporal, transferable, and uncertainty-aware. This review directly motivated and justified the four research questions.</p>
+<p>The systematic review is the foundation of this thesis. It maps the literature landscape — what methods exist, what they can and cannot do, and where the gaps are. Across 80+ papers reviewed, the key finding is that probabilistic data fusion is rare, uncertainty quantification is almost absent, and no paper addresses all four dimensions simultaneously — that is a multi-source, temporal, transferable, and uncertainty-aware architecture. This review directly motivated and justified the four research questions.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -752,7 +752,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>FusionGP is the first and core paper. We treat NO₂ concentration as a latent Gaussian Process — a continuous spatial field we never observe directly. All the 4 data sources i.e. Satellite retrievals, land use covariates, and in-situ observations are modelled as noisy observations of this latent field. The posterior GP gives us a spatially continuous map with calibrated uncertainty bounds throughot the area of interest — including unmonitored locations.</p>
+<p>FusionGP is the first and core paper. Here, we treat pollution concentration (nitrogen dioxide) concentration as a latent Gaussian Process — a continuous spatial field we never observe directly. All the 4 data sources i.e. Satellite retrievals, land use covariates, and in-situ observations are modelled as noisy observations of this latent field. The posterior GP gives us a spatially continuous map with calibrated uncertainty bounds throughot the area of interest — including unmonitored locations.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -792,7 +792,7 @@ Gabriel Oduori
 
 </div>
 <aside class="notes">
-<p>The second paper extends the spatial Generalized Additive Model (GAM) LUR model and embeds it inside a State Space Model. Essentially, the SSM gives the static GAM model memory — it doesn’t treat each time-step independently. As new obsrvation arrives, the Kalman filter updates the latent. The GAM handles non-linear relationships between spatial covariates and concentrations. This chapter has recently been updated with a new set of wind-sector derived covariates to better capture directional pollution transport — this is the main reviewer request and addresses a genuine physical mechanism we had under-modelled.</p>
+<p>The second paper extends the spatial Generalized Additive Model (GAM) LUR model and embeds it inside a State Space Model. Essentially, the SSM gives the static GAM model memory — it doesn’t treat each time-step independently. As new obsrvation arrives, there iks this thing called a Kalman filter, which I really find fascinating - and  it updates the latent field. The GAM handles non-linear relationships between spatial covariates and concentrations. Let me also add that this chapter has recently been updated with a new set of wind-sector derived covariates to better capture the anisotropic nature of pollution transport.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
