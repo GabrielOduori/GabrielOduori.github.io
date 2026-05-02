@@ -11,7 +11,7 @@ An automated early warning platform for anticipatory humanitarian action. The sy
 
 ## The Problem
 
-Humanitarian organisations like FAO and WFP rely on manual, retrospective trigger scores to decide when to release pre-positioned aid. By the time a crisis is confirmed, the 6–12 week window needed for anticipatory action has already closed. The system replaces that manual process with an automated, forward-looking forecast.
+Humanitarian organisations rely on manual, retrospective trigger scores to decide when to release pre-positioned aid. By the time a crisis is confirmed, the 6–12 week window needed for anticipatory action has already closed. The system replaces that manual process with an automated, forward-looking forecast.
 
 ## Features
 
