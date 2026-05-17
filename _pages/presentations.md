@@ -11,5 +11,4 @@ nav_order: 6
 |-------|-------------|--------|
 | Noisy Data? Python Has a Filter for That | Kalman filters, RTS smoothing and sensor fusion | [View](/presentations/kalman_filters.html) |
 | Porting a Legacy Remote Sensing CNN | From Theano/Lasagna to PyTorch | [View](/presentations/presentation.html) |
-<!-- | Fusion of In-Situ Network and Auxiliary Information: A Probabilistic Approach | PhD Thesis Defense Presentation | [View](/presentations/thesis_defense.html) | -->
 
