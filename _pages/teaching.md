@@ -19,6 +19,14 @@ Currently tutoring as part of the teaching team for this module. This part of th
 
 ---
 
+**Python for GIS** (Autumn 2026/2027)
+
+*Dublin, Ireland*
+
+Teaching this module for the second year. The course starts with a general introduction to Python and version control before moving into Python-based geospatial analysis workflows, including GeoPandas, GDAL, rasterio, and reproducible spatial data processing.
+
+---
+
 **Python for GIS** (Autumn 2025)
 
 *Dublin, Ireland*
