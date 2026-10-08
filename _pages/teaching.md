@@ -15,15 +15,15 @@ nav_order: 6
 
 *Dublin, Ireland*
 
-Teaching this module for the second year. The course starts with a general introduction to Python and version control before moving into Python-based geospatial analysis workflows, including GeoPandas, GDAL, rasterio, and reproducible spatial data processing.
+The course starts with a general introduction to Python, computational thinking and version control before moving into Python-based geospatial analysis workflows, including GeoPandas, GDAL, rasterio, and reproducible spatial data processing.
 
 ---
 
-**Programming for GIS** (Spring 2026)
+**Geostatistics and Programming for GIS** (Spring 2026)
 
 *Dublin, Ireland*
 
-Currently tutoring as part of the teaching team for this module. This part of the course teaches PyQGIS programming, enabling students to extend and automate QGIS functionality using Python. We explore the PyQGIS API, allowing students to interact with QGIS layers, create custom tools, and automate geospatial workflows.
+Tutored as part of the teaching team for this module. This part of the course teaches PyQGIS programming, enabling students to extend and automate QGIS functionality using Python. We explore the PyQGIS API, allowing students to interact with QGIS layers, create custom tools, and automate geospatial workflows.
 
 ---
 
