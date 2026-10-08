@@ -11,7 +11,7 @@ nav_order: 6
 
 ### MSc Course
 
-**Python for GIS** (Autumn 2026/2027)
+**Python for GIS** (Autumn 2026)
 
 *Dublin, Ireland*
 
