@@ -11,13 +11,13 @@ nav_order: 6
 
 ### MSc Course
 
-**Python for GIS** (Autumn 2026)
+<!-- **Python for GIS** (Autumn 2026)
 
 *Dublin, Ireland*
 
 The course starts with a general introduction to Python, computational thinking and version control before moving into Python-based geospatial analysis workflows, including GeoPandas, GDAL, rasterio, and reproducible spatial data processing.
 
----
+--- -->
 
 **Geostatistics and Programming for GIS** (Spring 2026)
 
